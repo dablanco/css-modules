@@ -1,0 +1,28 @@
+{
+  "name": "pechacucha-cssmodules",
+  "version": "0.0.1",
+  "description": "prueba de concepto para pechacucha de css modules",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.5.0",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "scripts": {
+    "dev": "webpack -d && webpack-dev-server --content-base /src --inline --hot --port 3000",
+    "build": "webpack -p"
+  },
+  "author": "Dan Blanco",
+  "license": "ISC"
+}

@@ -1,0 +1,47 @@
+.red {
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    width: 100px;
+    height: 32px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+.red:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+
+.blue {
+    background-color: #0000ff;
+    border: 1px solid #0000ff;
+    width: 100px;
+    height: 32px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+.blue:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+
+.green {
+    background-color: #009933;
+    border: 1px solid #009933;
+    width: 100px;
+    height: 32px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+.green:hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
